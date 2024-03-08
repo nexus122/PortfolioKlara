@@ -24,7 +24,7 @@
         "img": "./img/aburridotres.jpg",
         "category": "Diseño editorial",
         "gird-row": "1",
-        "col-span": "1"
+        "col-span": "4"
     },
     {
         "id": 11,
@@ -32,7 +32,7 @@
         "descripcion": "Klaramente marca mi segunda incursión en la escritura y edición de libros, llevándome a explorar una narrativa única y provocadora. Este libro narra una fascinante aventura a través de un personaje femenino, explorando cómo, desde su infancia hasta la vejez, va perdiendo puntos de inocencia debido a los desencuentros machistas que encuentra en su camino.",
         "img": "./img/2.png",
         "category": "Diseño editorial",
-        "gird-row": "2",
+        "gird-row": "1",
         "col-span": "1"
     },
     {
@@ -42,7 +42,7 @@
         "img": "./img/3.png",
         "category": "Diseño editorial",
         "gird-row": "1",
-        "col-span": "1"
+        "col-span": "2"
     },
     {
         "id": 13,

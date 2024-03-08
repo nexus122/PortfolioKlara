@@ -15,7 +15,7 @@
         "img": "./img/calavera.png",
         "category": "ilustración",
         "gird-row": "1",
-        "col-span": "1"
+        "col-span": "2"
     },
     {
         "id": 18,
@@ -23,7 +23,7 @@
         "descripcion": "La ilustración de este alien, repleto de ojos y con un toque ravero, surge de un impulso creativo originado en el aburrimiento. La obra refleja mi deseo de fusionar los elementos que más me gustan y que caracterizan mis dibujos: aliens, ojos, cuernos y una vibrante gama de colores.",
         "img": "./img/demonio.jpg",
         "category": "ilustración",
-        "gird-row": "2",
+        "gird-row": "1",
         "col-span": "1"
     },
     {
@@ -33,7 +33,7 @@
         "img": "./img/koraaaaa.png",
         "category": "ilustración",
         "gird-row": "1",
-        "col-span": "1"
+        "col-span": "2"
     },
     {
         "id": 19,
@@ -42,6 +42,6 @@
         "img": "./img/korasolar.png",
         "category": "ilustración",
         "gird-row": "1",
-        "col-span": "1"
+        "col-span": "2"
     }
 ]
