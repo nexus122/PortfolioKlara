@@ -2,8 +2,7 @@
 import json from "../../../public/data/data.json";
 import Layout from "../../layouts/Layout.astro";
 export async function getPage({ params }) {
-    const title = params.title;
-
+    const title = params.title.normalize();
     return { title };
 }
 
@@ -18,60 +17,66 @@ export async function getPaths() {
 }
 ---
 
-<Layout title={Astro.params.title ?? ""} />
-<a class="float lg:hidden" href="/" class="arrow">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-        <path
-            fill="#ffffff"
-            d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
-        ></path>
-    </svg>
-</a>
+<Layout title={Astro.params.title ?? ""}>
+        <a class="float lg:hidden" href="/" class="arrow">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                <path
+                    fill="#ffffff"
+                    d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+                ></path>
+            </svg>
+        </a>
 
-{
-    json.map((project) => {
-        if (project.nombre === Astro.params.title) {
-            return (
-                <div class="general">
-                    <div
-                        class="header parallax flex flex-col"
-                        style={`background-image: url(${project.img})`}
-                    >
-                        <h1>
-                            <a href="/" class="arrow">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    viewBox="0 0 448 512"
-                                >
-                                    <path
-                                        fill="#ffffff"
-                                        d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
-                                    />
-                                </svg>
-                            </a>
-                            {project.nombre}
-                        </h1>
-                    </div>
-                    <div class="content">
-                        <div class="flex lg:flex-row flex-col justify-center gap-5">                            
-                            <span class="flex flex-col gap-4">
-                                <h2 class="text-5xl">{project.nombre}</h2>
-                                <p>{project.descripcion}</p>
-                            </span>
+        {
+            json.map((project) => {
+                if (project.nombre == Astro.params.title) {
+                    return (
+                        <div class="general">
+                            <div
+                                class="header parallax flex flex-col"
+                                style={`background-image: url(${project.img})`}
+                            >
+                                <h1>
+                                    <a href="/" class="arrow">
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512"
+                                        >
+                                            <path
+                                                fill="#ffffff"
+                                                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+                                            />
+                                        </svg>
+                                    </a>
+                                    {project.nombre}
+                                </h1>
+                            </div>
+                            <div class="content bg-primary">
+                                <div class="flex lg:flex-row flex-col justify-center gap-5">
+                                    <span class="flex w-full md:w-1/4">
+                                        <img class="w-full" src={project.img} />
+                                    </span>
+                                    <span class="flex flex-col gap-4 text-white w-full md:w-3/4">
+                                        <h2 class="text-5xl">
+                                            {project.nombre}
+                                        </h2>
+                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10 w-[10%]">{project.category}</span>
+                                        <p>{project.descripcion}</p>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-            );
+                    );
+                }
+            })
         }
-    })
-}
-
+</Layout>
 <script>
     setTimeout(() => {
-        const iframe = document.querySelector("h1");
+        const iframe = document.querySelector("img");
         if (iframe) {
             const iframeTop =
-                iframe.getBoundingClientRect().top + window.pageYOffset -101;
+                iframe.getBoundingClientRect().top + window.pageYOffset - 201;
             window.scrollTo({
                 top: iframeTop,
                 behavior: "smooth",
@@ -101,7 +106,6 @@ export async function getPaths() {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding-bottom: 1em;
     }
     .header h1 {
         font-size: 5rem;
@@ -111,9 +115,6 @@ export async function getPaths() {
     }
     svg {
         filter: drop-shadow(1px 2px 1px rgb(0 0 0 / 0.8));
-    }
-    p {
-        color: white;
     }
     .parallax {
         /* Crea el efecto parallax */
@@ -133,7 +134,7 @@ export async function getPaths() {
         height: 1em;
         width: 1em;
         display: inline-block;
-        vertical-align: middle;        
+        vertical-align: middle;
     }
 
     .float {
@@ -146,10 +147,14 @@ export async function getPaths() {
         right: 1em;
         box-sizing: border-box;
         padding: 1em;
+        z-index: 100;
     }
     @media (max-width: 600px) {
-		.arrow {
-			display: none;
-		}
-	}
+        .arrow {
+            display: none;            
+        }
+        .header h1{
+            font-size: 3rem;
+        }
+    }
 </style>

@@ -30,7 +30,7 @@
         "id": 4,
         "nombre": "Doctor who",
         "descripcion": "El cartel de fan art se inspira en mi serie favorita de la infancia, Doctor Who. En este caso, he seleccionado a uno de los personajes que más me intrigó y que generó emociones intensas en mí: los Ángeles Llorosos. Mi objetivo ha sido captar la esencia única de la serie, buscando un equilibrio entre un diseño tenebroso y, al mismo tiempo, rindiendo homenaje a mi devoción como fan.",
-        "img": "./img/Doctor who.png",
+        "img": "./img/Doctor_who.png",
         "category": "Diseño grafico",
         "gird-row": "2",
         "col-span": "2"

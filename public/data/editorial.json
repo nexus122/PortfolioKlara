@@ -1,7 +1,7 @@
 [
     {
         "id": 8,
-        "nombre": "¿Aburrido? Léeme",
+        "nombre": "Aburrido Léeme",
         "descripcion": "¿Aburrido? Léeme marca mi incursión en el mundo de la escritura, siendo mi primer libro. Este proyecto surgió en el contexto de una tarea para la clase de tipografía, donde la intención principal era enseñar a los niños sobre las diferentes familias tipográficas mediante juegos y pasatiempos creativos. Trabajar en esta obra fue una experiencia colaborativa significativa, ya que la coautora, Anna Luna Siemontowitz, y yo compartimos ideas y esfuerzos para dar vida a esta propuesta educativa",
         "img": "./img/aburridouno.jpg",
         "category": "Diseño editorial",
@@ -10,7 +10,7 @@
     },
     {
         "id": 9,
-        "nombre": "¿Aburrido? Léeme",
+        "nombre": "Aburrido Léeme",
         "descripcion": "El libro no solo busca introducir conceptos tipográficos de manera lúdica, sino que también refleja mi capacidad para aplicar conocimientos académicos en un formato accesible y atractivo para un público infantil. A través de esta obra, Anna Luna y yo hemos creado un recurso educativo divertido que aspira a despertar el interés de los niños por el fascinante mundo de la tipografía.",
         "img": "./img/aburridodos.jpg",
         "category": "Diseño editorial",
@@ -19,7 +19,7 @@
     },
     {
         "id": 10,
-        "nombre": "¿Aburrido? Léeme",
+        "nombre": "Aburrido Léeme",
         "descripcion": "¿Aburrido? Léeme marca mi incursión en el mundo de la escritura, siendo mi primer libro. Este proyecto surgió en el contexto de una tarea para la clase de tipografía, donde la intención principal era enseñar a los niños sobre las diferentes familias tipográficas mediante juegos y pasatiempos creativos. Trabajar en esta obra fue una experiencia colaborativa significativa, ya que la coautora, Anna Luna Siemontowitz, y yo compartimos ideas y esfuerzos para dar vida a esta propuesta educativa",
         "img": "./img/aburridotres.jpg",
         "category": "Diseño editorial",
