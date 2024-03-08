@@ -2,8 +2,8 @@
 interface Props {
 	title: string;
 }
-import Header from '../components/shared/Header.astro';
-import Footer from '../components/shared/Footer.astro';
+import Header from "../components/shared/Header.astro";
+import Footer from "../components/shared/Footer.astro";
 const { title } = Astro.props;
 ---
 
@@ -18,9 +18,9 @@ const { title } = Astro.props;
 		<title>{title}</title>
 	</head>
 	<body>
-		<Header></Header>
-			<slot/>
-		<Footer></Footer>
+		<Header />
+		<slot />
+		<Footer />
 	</body>
 </html>
 <style is:global></style>

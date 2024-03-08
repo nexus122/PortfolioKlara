@@ -18,14 +18,14 @@ export async function getPaths() {
 ---
 
 <Layout title={Astro.params.title ?? ""}>
-        <a class="float lg:hidden" href="/" class="arrow">
+        <span class="float lg:hidden" class="arrow">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                 <path
                     fill="#ffffff"
                     d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
                 ></path>
             </svg>
-        </a>
+        </span>
 
         {
             json.map((project) => {
@@ -37,7 +37,7 @@ export async function getPaths() {
                                 style={`background-image: url(${project.img})`}
                             >
                                 <h1>
-                                    <a href="/" class="arrow">
+                                    <span class="arrow">
                                         <svg
                                             xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 448 512"
@@ -47,7 +47,7 @@ export async function getPaths() {
                                                 d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
                                             />
                                         </svg>
-                                    </a>
+                                    </span>
                                     {project.nombre}
                                 </h1>
                             </div>
@@ -60,8 +60,8 @@ export async function getPaths() {
                                         <h2 class="text-5xl">
                                             {project.nombre}
                                         </h2>
-                                        <span class="inline-flex items-center rounded-md bg-gray-50 px-2 py-1 text-xs font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10 w-[10%]">{project.category}</span>
-                                        <p>{project.descripcion}</p>
+                                        <span class="text-s text-center inline-flex rounded-md bg-gray-50 font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10 w-[10%]"><p class="w-full text-center">{project.category}</p></span>
+                                        <p class="text-lg">{project.descripcion}</p>
                                     </span>
                                 </div>
                             </div>
@@ -73,7 +73,7 @@ export async function getPaths() {
 </Layout>
 <script>
     setTimeout(() => {
-        const iframe = document.querySelector("img");
+        const iframe = document.querySelector("h1");
         if (iframe) {
             const iframeTop =
                 iframe.getBoundingClientRect().top + window.pageYOffset - 201;
@@ -83,6 +83,13 @@ export async function getPaths() {
             });
         }
     }, 100);
+
+    document.querySelector(".arrow").addEventListener("click", () => {
+        window.history.back();
+    });
+    document.querySelector(".float").addEventListener("click", () => {
+        window.history.back();
+    });
 </script>
 
 <style scoped>
@@ -135,6 +142,7 @@ export async function getPaths() {
         width: 1em;
         display: inline-block;
         vertical-align: middle;
+        cursor: pointer;
     }
 
     .float {

@@ -3,7 +3,7 @@
         "id": 0,
         "nombre": "Bad idea",
         "descripcion": "El cartel Bad Idea encuentra su origen en la inspiración que surgió al escuchar la canción Bad Idea de Girl in red. A través del uso de Photoshop, busqué transmitir una imagen que reflejara la rebeldía, destacando la idea de que aunque algo pueda parecer tentador y jugoso, podría ser una mala idea. Quise plasmar la noción de que la experiencia y las consecuencias se manifiestan posteriormente, y que, paradójicamente, una mala idea podría no ser tan negativa como parece si se disfruta plenamente y se asume la responsabilidad de las consecuencias que puedan surgir.",
-        "img": "./img/Bad idea.jpg",
+        "img": "./img/Bad_idea.jpg",
         "category": "Diseño grafico",
         "gird-row": "1",
         "col-span": "2"
