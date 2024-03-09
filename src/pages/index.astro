@@ -1,5 +1,6 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import RSS from "../components/shared/RSS.astro"
 ---
 
 <Layout title="Portfolio">
@@ -16,7 +17,7 @@ import Layout from "../layouts/Layout.astro";
 		<!-- Bloque 3  -->
 		<div class="flex flex-col col-span-1 row-span-2">
 			<div class="flex w-full flex-grow bg-primary">
-				<div class="flex flex-col w-full p-2 gap-3">
+				<div class="flex flex-col w-full p-14 gap-3">
 					<span class="text-5xl font-bold animate__animated animate__fadeInUp">👋 Hola, soy Klara</span>
 					<span class="flex flex-col gap-3 text-lg animate__animated animate__fadeInUp">
 						<p>
@@ -33,7 +34,13 @@ import Layout from "../layouts/Layout.astro";
 							herramientas digitales, mi objetivo es fusionar la
 							estética y la funcionalidad en cada proyecto.
 						</p>
-					</span>					
+						<span class="flex gap-1">
+							<span class="text-secondary-100">
+								<RSS/>
+							</span>
+							<p><span class="font-bold">Teléfono:</span> 611088919</p>
+						</span>
+					</span>							
 				</div>
 			</div>
 		</div>

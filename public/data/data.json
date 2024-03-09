@@ -21,7 +21,7 @@
         "id": 3,
         "nombre": "Fuck off",
         "descripcion": "El cartel representa mi homenaje personal a Vincent van Gogh, mediante la reinterpretación de su obra maestra que más me fascina. Utilizando habilidades en Photoshop, he llevado a cabo una transformación que fusiona elementos retro futuristas y neo punk, llevando la pieza de arte de un extremo a otro del espectro estilístico.",
-        "img": "/img/Fuck off.jpg",
+        "img": "/img/Fuck_off.jpg",
         "category": "Diseño grafico",
         "gird-row": "2",
         "col-span": "1"

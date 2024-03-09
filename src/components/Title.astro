@@ -2,14 +2,6 @@
 const { title } = Astro.props;
 ---
 
-<div class="flex justify-center p-[4.5rem]">
-    <h1 class="text-[6rem]">{title}</h1>
+<div class="flex justify-center p-14 font-bold">
+    <h1 class="text-3xl md:text-5xl">{title}</h1>
 </div>
-
-<style>
-    @media (max-width: 600px) {
-        h1 {
-            font-size: 3rem; /* Ajusta este valor según sea necesario */
-        }
-    }
-</style>
