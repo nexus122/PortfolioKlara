@@ -57,7 +57,7 @@
         "id": 7,
         "nombre": "Tomorrowland",
         "descripcion": "El cartel que presento es el resultado de un proyecto para clase centrado en los colores RGB, donde exploré la creación de un festival ficticio. Este trabajo me llevó a salir de mi zona de confort al adoptar el estilo vaporwave.",
-        "img": "/img/tomorrrwland.png",
+        "img": "/img/tomorrowland.png",
         "category": "Diseño grafico",
         "gird-row": "1",
         "col-span": "1"
