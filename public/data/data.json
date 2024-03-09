@@ -51,7 +51,7 @@
         "img": "/img/medusa.jpg",
         "category": "Diseño grafico",
         "gird-row": "1",
-        "col-span": "1"
+        "col-span": "2"
     },
     {
         "id": 7,
@@ -60,7 +60,7 @@
         "img": "/img/tomorrowland.png",
         "category": "Diseño grafico",
         "gird-row": "1",
-        "col-span": "1"
+        "col-span": "2"
     },
     {
         "id": 8,
@@ -68,7 +68,7 @@
         "descripcion": "¿Aburrido? Léeme marca mi incursión en el mundo de la escritura, siendo mi primer libro. Este proyecto surgió en el contexto de una tarea para la clase de tipografía, donde la intención principal era enseñar a los niños sobre las diferentes familias tipográficas mediante juegos y pasatiempos creativos. Trabajar en esta obra fue una experiencia colaborativa significativa, ya que la coautora, Anna Luna Siemontowitz, y yo compartimos ideas y esfuerzos para dar vida a esta propuesta educativa",
         "img": "/img/aburridouno.jpg",
         "category": "Diseño editorial",
-        "gird-row": "3",
+        "gird-row": "1",
         "col-span": "1"
     },
     {
@@ -78,7 +78,7 @@
         "img": "/img/aburridodos.jpg",
         "category": "Diseño editorial",
         "gird-row": "2",
-        "col-span": "1"
+        "col-span": "2"
     },
     {
         "id": 10,
@@ -105,7 +105,7 @@
         "img": "/img/3.png",
         "category": "Diseño editorial",
         "gird-row": "1",
-        "col-span": "1"
+        "col-span": "2"
     },
     {
         "id": 13,
@@ -117,31 +117,13 @@
         "col-span": "1"
     },
     {
-        "id": 14,
-        "nombre": "Urban District",
-        "descripcion": "Urban district es una revista que concebí como parte de un proyecto para la clase de proyectos. El diseño editorial de esta publicación se caracteriza por su frescura, modernidad y el objetivo claro de ser lo más urbano e innovador posible.",
-        "img": "/img/urban1.png",
-        "category": "Diseño editorial",
-        "gird-row": "2",
-        "col-span": "1"
-    },
-    {
-        "id": 15,
-        "nombre": "Urban District",
-        "descripcion": "A través de la elección de elementos visuales, tipografías y composiciones, busqué capturar la esencia vibrante y dinámica de la vida urbana. El diseño no solo aspira a ser estéticamente atractivo, sino también funcional y relevante para su audiencia. Urban District se presenta como una ventana a la cultura urbana contemporánea, donde la creatividad y la innovación convergen para ofrecer una experiencia editorial única y emocionante. Este proyecto refleja mi capacidad para traducir conceptos y temas específicos en diseños visuales que conectan de manera efectiva con la audiencia objetivo.",
-        "img": "/img/urban2.png",
-        "category": "Diseño editorial",
-        "gird-row": "2",
-        "col-span": "1"
-    },
-    {
         "id": 16,
         "nombre": "Mis Demonios",
         "descripcion": "La ilustración que presento surge de mi deseo de representar, a través de un autoretrato, los demonios internos que todos llevamos dentro. La obra busca capturar esa parte oscura y sombría que reside en nuestro interior, centrándome en la expresión de mi ira interna. A través de la caracterización propia de un demonio, he creado una representación visual de esos aspectos más turbulentos y complejos de mi ser.",
         "img": "/img/demoniyo.png",
         "category": "ilustración",
         "gird-row": "1",
-        "col-span": "1"
+        "col-span": "2"
     },
     {
         "id": 17,
@@ -150,7 +132,7 @@
         "img": "/img/calavera.png",
         "category": "ilustración",
         "gird-row": "1",
-        "col-span": "1"
+        "col-span": "2"
     },
     {
         "id": 18,
@@ -158,8 +140,8 @@
         "descripcion": "La ilustración de este alien, repleto de ojos y con un toque ravero, surge de un impulso creativo originado en el aburrimiento. La obra refleja mi deseo de fusionar los elementos que más me gustan y que caracterizan mis dibujos: aliens, ojos, cuernos y una vibrante gama de colores.",
         "img": "/img/demonio.jpg",
         "category": "ilustración",
-        "gird-row": "2",
-        "col-span": "1"
+        "gird-row": "1",
+        "col-span": "2"
     },
     {
         "id": 19,
