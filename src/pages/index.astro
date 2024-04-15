@@ -1,25 +1,27 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import RSS from "../components/shared/RSS.astro"
+import RSS from "../components/shared/RSS.astro";
 ---
 
 <Layout title="Portfolio">
 	<section class="grid lg:grid-cols-3 md:grid-cols-1">
-		<!-- Bloque 1  -->
 		<div
 			class="flex flex-col p-1 justify-center text-center text-white bg-primary col-span-1 row-span-2"
 		>
 			<h1 class="text-5xl font-bold">Klara Romero</h1>
 			<h2 class="text-4xl font-bold">Diseñadora Grafica</h2>
 		</div>
-		<!-- Bloque 2  -->
-		<img class="col-span-1 row-span-2" src="img/edit2.0.jpg" alt="" />	
-		<!-- Bloque 3  -->
+		<img class="col-span-1 row-span-2" src="img/edit2.0.jpg" alt="" />
 		<div class="flex flex-col col-span-1 row-span-2">
 			<div class="flex w-full flex-grow bg-primary">
 				<div class="flex flex-col w-full p-14 gap-3">
-					<span class="text-5xl font-bold animate__animated animate__fadeInUp">👋 Hola, soy Klara</span>
-					<span class="flex flex-col gap-3 text-lg animate__animated animate__fadeInUp">
+					<span
+						class="text-5xl font-bold animate__animated animate__fadeInUp"
+						>👋 Hola, soy Klara</span
+					>
+					<span
+						class="flex flex-col gap-3 text-lg animate__animated animate__fadeInUp"
+					>
 						<p>
 							Apasionada del diseño gráfico y estudiante en
 							ESDAPC.
@@ -35,12 +37,16 @@ import RSS from "../components/shared/RSS.astro"
 							estética y la funcionalidad en cada proyecto.
 						</p>
 						<span class="flex flex-col gap-1">
-							<p><span class="font-bold">Teléfono:</span> 611088919</p>							
-							<span class="flex gap-2 transition-all text-secondary-100">
-								<RSS/>
-							</span>							
+							<p>
+								<span class="font-bold">Teléfono:</span> 611088919
+							</p>
+							<span
+								class="flex gap-2 transition-all text-secondary-100"
+							>
+								<RSS />
+							</span>
 						</span>
-					</span>							
+					</span>
 				</div>
 			</div>
 		</div>
