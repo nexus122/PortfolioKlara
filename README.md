@@ -21,17 +21,14 @@ Sitio web: https://portfolio-klara.vercel.app
 ## Pasos:
 ### Clonar el repositorio:
 ```
-Bash
-git clone https://docs.github.com/es/repositories/creating-and-managing-repositories/quickstart-for-repositories
+git clone https://github.com/nexus122/PortfolioKlara.git
 ```
 ### Instalar las dependencias:
 ```
-Bash
 npm install
 ```
 ### Iniciar el servidor de desarrollo:
 ```
-Bash
 npm start
 ```
 ## Contribuciones:
