@@ -85,12 +85,16 @@ export async function getPaths() {
             });
         }
     }, 100);
-
-    document.querySelector(".arrow").addEventListener("click", () => {
-        window.history.back();
+    document.querySelectorAll(".arrow").forEach((arrow) => {
+        arrow.addEventListener("click", () => {
+            window.history.back();
+        });
     });
-    document.querySelector(".float").addEventListener("click", () => {
-        window.history.back();
+
+    document.querySelectorAll(".float").forEach((float) => {
+        float.addEventListener("click", () => {
+            window.history.back();
+        });
     });
 </script>
 
