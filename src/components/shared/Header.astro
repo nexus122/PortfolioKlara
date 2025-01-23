@@ -1,131 +1,134 @@
 <nav
-    class="flex items-center justify-between flex-wra fixed w-full z-10 top-0 border-1 border-primary text-black"
+  class="flex items-center justify-between flex-wra fixed w-full z-10 top-0 border-1 border-primary text-black"
 >
-    <div class="flex items-center flex-shrink-0 text-white mr-6">
-        <a href="/">
-            <span class="text-4xl p-2 text-black"> Likuet Studio </span>
-        </a>
-    </div>
+  <div class="flex items-center flex-shrink-0 text-white mr-6">
+    <a href="/">
+      <span class="text-4xl p-2 text-black"> Likuet Studio </span>
+    </a>
+  </div>
 
-    <div class="block p-2 lg:hidden">
-        <button
-            id="nav-toggle"
-            class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white"
-        >
-            <svg
-                class="fill-current h-3 w-3"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
-                ><title>Menu</title><path
-                    d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg
-            >
-        </button>
-    </div>
-
-    <div
-        class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden pt-6 lg:pt-0"
-        id="nav-content"
+  <div class="block p-2 lg:hidden">
+    <button
+      id="nav-toggle"
+      class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-white hover:border-white"
     >
-        <button
-            id="close-menu"
-            class="absolute top-0 right-0 mt-8 mr-2 lg:hidden"
+      <svg
+        class="fill-current h-3 w-3"
+        viewBox="0 0 20 20"
+        xmlns="http://www.w3.org/2000/svg"
+        ><title>Menu</title><path
+          d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></svg
+      >
+    </button>
+  </div>
+
+  <div
+    class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden pt-6 lg:pt-0"
+    id="nav-content"
+  >
+    <button id="close-menu" class="absolute top-0 right-0 mt-8 mr-2 lg:hidden">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        class="h-6 w-6 text-black"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M6 18L18 6M6 6l12 12"></path>
+      </svg>
+    </button>
+    <ul class="list-reset lg:flex justify-end flex-1 items-center">
+      <li class="mr-3">
+        <a
+          class="text-2xl mb:text-3xl inline-block no-underline hover:text-primary hover:text-underline py-2 px-4"
+          href="/">Home</a
         >
-            <svg
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                class="h-6 w-6 text-black"
-            >
-                <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="2"
-                    d="M6 18L18 6M6 6l12 12"></path>
-            </svg>
-        </button>
-        <ul class="list-reset lg:flex justify-end flex-1 items-center">
-            <li class="mr-3">
-                <a
-                    class="text-2xl mb:text-3xl inline-block no-underline hover:text-primary hover:text-underline py-2 px-4"
-                    href="/">Home</a
-                >
-            </li>
-            <li class="mr-3">
-                <a
-                    class="text-2xl mb:text-3xl inline-block no-underline hover:text-primary hover:text-underline py-2 px-4"
-                    href="/Grafico">Diseño Gráfico</a
-                >
-            </li>
-            <li class="mr-3">
-                <a
-                    class="text-2xl mb:text-3xl inline-block no-underline hover:text-primary hover:text-underline py-2 px-4"
-                    href="/Editorial">Diseño Editorial</a
-                >
-            </li>
-            <li class="mr-3">
-                <a
-                    class="text-2xl mb:text-3xl inline-block no-underline hover:text-primary hover:text-underline py-2 px-4"
-                    href="/Ilustracion">Ilustración</a
-                >
-            </li>
-            <li class="mr-3">
-                <a
-                    class="text-3xl inline-block no-underline hover:text-primary hover:text-underline py-2 px-4"
-                    href="https://klarasaurio.github.io/Portafolio/docs/CV%20DISEÑO.pdf"
-                    target="_blank">CV</a
-                >
-            </li>
-        </ul>
-    </div>
+      </li>
+      <li class="mr-3">
+        <a
+          class="text-2xl mb:text-3xl inline-block no-underline hover:text-primary hover:text-underline py-2 px-4"
+          href="/Grafico">Diseño Gráfico</a
+        >
+      </li>
+      <li class="mr-3">
+        <a
+          class="text-2xl mb:text-3xl inline-block no-underline hover:text-primary hover:text-underline py-2 px-4"
+          href="/Editorial">Diseño Editorial</a
+        >
+      </li>
+      <li class="mr-3">
+        <a
+          class="text-2xl mb:text-3xl inline-block no-underline hover:text-primary hover:text-underline py-2 px-4"
+          href="/MotionGraphics">Motion Graphics</a
+        >
+      </li>
+      <!--<li class="mr-3">
+        <a
+          class="text-2xl mb:text-3xl inline-block no-underline hover:text-primary hover:text-underline py-2 px-4"
+          href="/RedesSociales">Redes Sociales</a
+        >
+      </li> -->
+      <li class="mr-3">
+        <a
+          class="text-3xl inline-block no-underline hover:text-primary hover:text-underline py-2 px-4"
+          href="https://klarasaurio.github.io/Portafolio/docs/CV%20DISEÑO.pdf"
+          target="_blank">CV</a
+        >
+      </li>
+    </ul>
+  </div>
 </nav>
 
 <script>
-    document.getElementById("nav-toggle").onclick = function () {
-        const navContent = document.getElementById("nav-content");
-        navContent.classList.toggle("hidden");
-        if (!navContent.classList.contains("hidden")) {
-            navContent.classList.add("fixed");
-        } else {
-            navContent.classList.remove("fixed");
-        }
-    };
+  document.getElementById("nav-toggle").onclick = function () {
+    const navContent = document.getElementById("nav-content");
+    navContent.classList.toggle("hidden");
+    if (!navContent.classList.contains("hidden")) {
+      navContent.classList.add("fixed");
+    } else {
+      navContent.classList.remove("fixed");
+    }
+  };
 
-    document.getElementById("close-menu").onclick = function () {
-        const navContent = document.getElementById("nav-content");
-        navContent.classList.add("hidden");
-        navContent.classList.remove("fixed");
-    };
+  document.getElementById("close-menu").onclick = function () {
+    const navContent = document.getElementById("nav-content");
+    navContent.classList.add("hidden");
+    navContent.classList.remove("fixed");
+  };
 </script>
 
 <style>
-    .logo {
-        width: 170px;
-        padding: 1em;
-    }
-    nav {
-        background-color: white;
-        position: sticky;
-        top: 0;
+  .logo {
+    width: 170px;
+    padding: 1em;
+  }
+  nav {
+    background-color: white;
+    position: sticky;
+    top: 0;
+  }
+
+  @media (max-width: 769px) {
+    #nav-content {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.7);
     }
 
-    @media (max-width: 769px) {
-        #nav-content {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            z-index: 100;
-            background: rgba(255, 255, 255, 0.7);
-        }
-
-        #nav-content ul {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100%;
-        }
+    #nav-content ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
     }
+  }
 </style>

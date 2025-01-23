@@ -160,5 +160,74 @@
         "category": "ilustración",
         "rowSpan": "1",
         "colSpan": "1"
+    },
+    {
+        "id": 20,
+        "nombre": "UOC",
+        "descripcion": "Proyecto Insignia es una iniciativa interna de la UOC enfocada en el desarrollo de microcredenciales como reconocimiento de competencias y aprendizajes específicos. Para este proyecto, diseñé un logotipo representativo de su identidad y objetivos, además de un GIF animado que presenta de manera dinámica y atractiva los principales conceptos del proyecto. Estas piezas se utilizaron en notas de prensa, contribuyendo a reforzar su comunicación visual y a captar la atención de su audiencia objetivo.",
+        "img": "/img/uocLogo.gif",
+        "category": "Motion Graphics",
+        "rowSpan": "1",
+        "colSpan": "2"
+    },
+    {
+        "id": 21,
+        "nombre": "Niu Project",
+        "descripcion": "Niu Project es un vídeo creado para presentar la identidad de una marca centrada en un proyecto social innovador. Su misión es repoblar pueblos vacíos en España, promoviendo la revitalización de comunidades rurales. El vídeo transmite los valores de la marca, destacando su compromiso con el desarrollo social y la conexión entre personas y territorios.",
+        "img": "/img/NiuProjectCartel.png",
+        "video": "/img/Niu Project.mp4",
+        "category": "Motion Graphics",
+        "rowSpan": "1",
+        "colSpan": "2"
+    },
+    {
+        "id": 22,
+        "nombre": "Dulce de leche",
+        "descripcion": "He gestionado las redes sociales de la empresa El Mundo del Dulce de Leche, creando contenido como este vídeo para Instagram. Este trabajo presenta una nueva modalidad: una pegatina personalizada para los clientes, la cual también diseñé, destacando la atención al detalle y la identidad de la marca.",
+        "img": "/img/DucleDeLeche.jpg",
+        "video": "/img/DulceDeLeche.mp4",
+        "category": "Motion Graphics",
+        "rowSpan": "1",
+        "colSpan": "3"
+    },
+    {
+        "id": 23,
+        "nombre": "Danone",
+        "descripcion": "He creado contenido para el feed de Instagram de Hydration For Health, una iniciativa de Danone centrada en promover la importancia de una hidratación saludable. En este proyecto, desarrollé piezas visuales atractivas y alineadas con la identidad de la marca, enfocándome en transmitir su mensaje de forma clara y efectiva para captar la atención de su audiencia.",
+        "img": "/img/ThinkleDanone.jpeg",
+        "video": "/img/TinkleReel_1.mp4",
+        "category": "Motion Graphics",
+        "rowSpan": "1",
+        "colSpan": "1"
+    },
+    {
+        "id": 24,
+        "nombre": "Grinch Room",
+        "descripcion": "Grinch Room fue un montaje efímero navideño creado en equipo en la universidad Pau Gargallo. Inspirado en el Grinch, combinamos luces, colores vibrantes y detalles festivos para un ambiente único y divertido. Mi aportación principal al proyecto fue la realización del vídeo presentado en las redes sociales, destacando la creatividad y el trabajo del equipo.",
+        "img": "/img/GRINCH_Cara.svg",
+        "video": "/img/Grinch.mp4",
+        "category": "Motion Graphics",
+        "rowSpan": "1",
+        "colSpan": "4"
+    },
+    {
+        "id": 25,
+        "nombre": "Aliseda",
+        "descripcion": "La inmobiliaria Aliseda presenta su nueva inteligencia artificial a través de este vídeo que he creado para ellos, mostrando su funcionamiento de manera clara y dinámica. El vídeo está diseñado específicamente para LinkedIn, destacando las ventajas de esta herramienta innovadora y cómo puede transformar la experiencia en el sector inmobiliario, captando la atención de profesionales y potenciales clientes.",
+        "img": "/img/Aliseda IA.png",
+        "video": "/img/Aliseda IA.mp4",
+        "category": "Motion Graphics",
+        "rowSpan": "1",
+        "colSpan": "2"
+    },
+    {
+        "id": 26,
+        "nombre": "Aliseda",
+        "descripcion": "La inmobiliaria Aliseda presenta sus naves industriales en oferta a través de este vídeo que he creado, destacando las características y ventajas de sus instalaciones. El vídeo está diseñado para mostrar cómo estas naves son el espacio perfecto para el crecimiento de negocios, resaltando su funcionalidad, ubicación y adaptabilidad a diferentes necesidades empresariales.",
+        "img": "/img/Aliseda Logistica.png",
+        "video": "/img/Aliseda Logistica.mp4",
+        "category": "Motion Graphics",
+        "rowSpan": "1",
+        "colSpan": "2"
     }
 ]
