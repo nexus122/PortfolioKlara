@@ -2,172 +2,187 @@
 import json from "../../../public/data/data.json";
 import Layout from "../../layouts/Layout.astro";
 export async function getPage({ params }) {
-    const title = params.title.normalize();
-    return { title };
+  const title = params.title.normalize();
+  return { title };
 }
 
 export async function getPaths() {
-    const titles = json.map((project) => project.nombre);
-    const paths = titles.map((title) => ({
-        params: {
-            title,
-        },
-    }));
-    return paths;
+  const titles = json.map((project) => project.nombre);
+  const paths = titles.map((title) => ({
+    params: {
+      title,
+    },
+  }));
+  return paths;
 }
 ---
 
 <Layout title={Astro.params.title ?? ""}>
-    <span class="float lg:hidden" class="arrow">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-            <path
-                fill="#ffffff"
-                d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
-            ></path>
-        </svg>
-    </span>
+  <span class="float lg:hidden" class="arrow">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+      <path
+        fill="#ffffff"
+        d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+      ></path>
+    </svg>
+  </span>
 
-    {
-        json.map((project) => {
-            if (project.nombre == Astro.params.title) {
-                return (
-                    <div class="general">
-                        <div
-                            class="header parallax flex flex-col"
-                            style={`background-image: url(${project.img})`}
-                        >
-                            <h1>
-                                <span class="arrow">
-                                    <svg
-                                        xmlns="http://www.w3.org/2000/svg"
-                                        viewBox="0 0 448 512"
-                                    >
-                                        <path
-                                            fill="#ffffff"
-                                            d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
-                                        />
-                                    </svg>
-                                </span>
-                                {project.nombre}
-                            </h1>
-                        </div>
-                        <div class="content bg-primary">
-                            <div class="flex lg:flex-row flex-col justify-center gap-5">
-                                <span class="flex w-full md:w-1/4">
-                                    <img class="w-full" src={project.img} />
-                                </span>
-                                <span class="flex flex-col gap-4 text-white w-full md:w-3/4">
-                                    <h2 class="text-5xl">{project.nombre}</h2>
-                                    <span class="w-full md:w-1/4 text-s text-center inline-flex rounded-md bg-gray-50 font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
-                                        <p class="w-full text-center">
-                                            {project.category}
-                                        </p>
-                                    </span>
-                                    <p class="text-lg">{project.descripcion}</p>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                );
-            }
-        })
-    }
+  {
+    json.map((project) => {
+      if (project.nombre == Astro.params.title) {
+        return (
+          <div class="general">
+            <div
+              class="header parallax flex flex-col"
+              style={
+                project.video ? `` : `background-image: url(${project.img})`
+              }
+            >
+              {project.video && (
+                <video
+                  class="absolute"
+                  style="z-index: -99;"
+                  src={`${project.video}`}
+                  autoplay
+                  muted
+                  loop
+                />
+              )}
+
+              <h1>
+                <span class="arrow">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                      fill="#ffffff"
+                      d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.2 288 416 288c17.7 0 32-14.3 32-32s-14.3-32-32-32l-306.7 0L214.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z"
+                    />
+                  </svg>
+                </span>
+                {project.nombre}
+              </h1>
+            </div>
+            <div class="content bg-primary">
+              <div class="flex lg:flex-row flex-col justify-center gap-5">
+                <span class="flex w-full md:w-1/4">
+                  {!project.video && <img class="w-full" src={project.img} />}
+                  {project.video && (
+                    <video
+                      src={`${project.video}`}
+                      controls
+                      poster={`${project.img}`}
+                    />
+                  )}
+                </span>
+                <span class="flex flex-col gap-4 text-white w-full md:w-3/4">
+                  <h2 class="text-5xl">{project.nombre}</h2>
+                  <span class="w-full md:w-1/4 text-s text-center inline-flex rounded-md bg-gray-50 font-medium text-gray-600 ring-1 ring-inset ring-gray-500/10">
+                    <p class="w-full text-center">{project.category}</p>
+                  </span>
+                  <p class="text-lg">{project.descripcion}</p>
+                </span>
+              </div>
+            </div>
+          </div>
+        );
+      }
+    })
+  }
 </Layout>
 <script>
-    setTimeout(() => {
-        const iframe = document.querySelector("h1");
-        if (iframe) {
-            const iframeTop =
-                iframe.getBoundingClientRect().top + window.pageYOffset - 201;
-            window.scrollTo({
-                top: iframeTop,
-                behavior: "smooth",
-            });
-        }
-    }, 100);
-    document.querySelectorAll(".arrow").forEach((arrow) => {
-        arrow.addEventListener("click", () => {
-            window.history.back();
-        });
+  setTimeout(() => {
+    const iframe = document.querySelector("h1");
+    if (iframe) {
+      const iframeTop =
+        iframe.getBoundingClientRect().top + window.pageYOffset - 201;
+      window.scrollTo({
+        top: iframeTop,
+        behavior: "smooth",
+      });
+    }
+  }, 100);
+  document.querySelectorAll(".arrow").forEach((arrow) => {
+    arrow.addEventListener("click", () => {
+      window.history.back();
     });
+  });
 
-    document.querySelectorAll(".float").forEach((float) => {
-        float.addEventListener("click", () => {
-            window.history.back();
-        });
+  document.querySelectorAll(".float").forEach((float) => {
+    float.addEventListener("click", () => {
+      window.history.back();
     });
+  });
 </script>
 
 <style scoped>
-    iframe {
-        min-width: 50%;
-        min-height: 400px;
-    }
-    .header {
-        background-size: cover;
-        background-position: center;
-        height: 100vh;
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        color: white;
-    }
+  iframe {
+    min-width: 50%;
+    min-height: 400px;
+  }
+  .header {
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
 
-    .general {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+  .general {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .header h1 {
+    font-size: 5rem;
+    position: sticky;
+    top: 20%;
+    text-shadow: 1px 1px 2px black;
+  }
+  svg {
+    filter: drop-shadow(1px 2px 1px rgb(0 0 0 / 0.8));
+  }
+  .parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .content {
+    padding-top: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1em;
+    box-sizing: border-box;
+  }
+  .arrow {
+    height: 1em;
+    width: 0.8em;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+  }
+
+  .float {
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    box-sizing: border-box;
+    padding: 1em;
+    z-index: 100;
+  }
+  @media (max-width: 600px) {
+    .arrow {
+      display: none;
     }
     .header h1 {
-        font-size: 5rem;
-        position: sticky;
-        top: 20%;
-        text-shadow: 1px 1px 2px black;
+      font-size: 3rem;
     }
-    svg {
-        filter: drop-shadow(1px 2px 1px rgb(0 0 0 / 0.8));
-    }
-    .parallax {
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .content {
-        padding-top: 2rem;
-        box-sizing: border-box;
-        width: 100%;
-        padding: 1em;
-        box-sizing: border-box;
-    }
-    .arrow {
-        height: 1em;
-        width: 0.8em;
-        display: inline-block;
-        vertical-align: middle;
-        cursor: pointer;
-    }
-
-    .float {
-        border-radius: 50%;
-        background: rgba(0, 0, 0, 0.7);
-        width: 50px;
-        height: 50px;
-        position: fixed;
-        bottom: 1em;
-        right: 1em;
-        box-sizing: border-box;
-        padding: 1em;
-        z-index: 100;
-    }
-    @media (max-width: 600px) {
-        .arrow {
-            display: none;
-        }
-        .header h1 {
-            font-size: 3rem;
-        }
-    }
+  }
 </style>
