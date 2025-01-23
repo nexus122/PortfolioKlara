@@ -1,0 +1,22 @@
+---
+import Card from "./Card.astro";
+import json from "../../public/data/data.json";
+
+const { category } = Astro.props;
+const filteredProjects = json.filter((project) => project.category == category);
+---
+
+<div
+  class="cards grid lg:grid-cols-4 md:grid-cols-2 animate__animated animate__fadeInUp"
+>
+  {
+    filteredProjects.map((project) => (
+      <Card
+        title={project.nombre}
+        background={project.img}
+        colSpan={project["colSpan"] || "1"}
+        rowSpan={project["rowSpan"] || "1"}
+      />
+    ))
+  }
+</div>

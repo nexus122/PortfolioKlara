@@ -1,25 +1,12 @@
 ---
-import Layout from '../layouts/Layout.astro';
-import Card from '../components/Card.astro';
-import Title from '../components/Title.astro';
-import json from '../../public/data/data.json';
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+import Title from "../components/Title.astro";
+import json from "../../public/data/data.json";
+import Proyectos from "../components/Proyectos.astro";
 ---
 
-<Layout title="Portfolio">    
-    <Title title="Ilustración"></Title>
-	<div class="cards grid lg:grid-cols-4 md:grid-cols-2 animate__animated animate__fadeInUp">
-    {
-      json
-        .filter(project => project.category == "ilustración")
-        .map((project) => (
-          <Card
-            title={project.nombre}
-            background={project.img}
-            colSpan={project["col-span"] || "1"}
-            rowSpan={project["grid-row"] || "1"}
-          />      
-        ))
-    } 
-    </div>
+<Layout title="Portfolio">
+  <Title title="Ilustración" />
+  <Proyectos category="ilustración" />
 </Layout>
-
