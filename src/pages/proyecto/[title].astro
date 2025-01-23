@@ -39,13 +39,15 @@ export async function getPaths() {
               }
             >
               {project.video && (
-                <video
-                  class="absolute"
-                  style="z-index: -99;"
-                  src={`${project.video}`}
-                  autoplay
-                  muted
-                  loop
+                <iframe
+                  class="absolute w-full h-full youtube"
+                  style="z-index: -99"
+                  src={
+                    project.video +
+                    "&autoplay=1&mute=1&loop=1" +
+                    project.video.split("v=")[1]
+                  }
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 />
               )}
 
@@ -66,10 +68,11 @@ export async function getPaths() {
                 <span class="flex w-full md:w-1/4">
                   {!project.video && <img class="w-full" src={project.img} />}
                   {project.video && (
-                    <video
-                      src={`${project.video}`}
-                      controls
-                      poster={`${project.img}`}
+                    <iframe
+                      src={project.video}
+                      frameborder="0"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                      allowfullscreen
                     />
                   )}
                 </span>
