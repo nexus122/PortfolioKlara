@@ -3,7 +3,12 @@ import Card from "./Card.astro";
 import json from "../../public/data/data.json";
 
 const { category } = Astro.props;
-const filteredProjects = json.filter((project) => project.category == category);
+const filteredProjects = filterProjects(json);
+function filterProjects(json) {
+  return json.filter(
+    (project) => project.category == category && project.canShow
+  );
+}
 ---
 
 <div
