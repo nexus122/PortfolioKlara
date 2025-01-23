@@ -69,6 +69,7 @@ export async function getPaths() {
                   {!project.video && <img class="w-full" src={project.img} />}
                   {project.video && (
                     <iframe
+                      class="w-full"
                       src={project.video}
                       frameborder="0"
                       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

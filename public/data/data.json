@@ -6,7 +6,8 @@
         "img": "/img/Bad_idea.jpg",
         "category": "Diseño grafico",
         "rowSpan": "1",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 1,
@@ -15,7 +16,8 @@
         "img": "/img/oso.png",
         "category": "Diseño grafico",
         "rowSpan": "1",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 3,
@@ -24,7 +26,8 @@
         "img": "/img/Fuck_off.jpg",
         "category": "Diseño grafico",
         "rowSpan": "2",
-        "colSpan": "1"
+        "colSpan": "1",
+        "canShow": true
     },
     {
         "id": 4,
@@ -33,7 +36,8 @@
         "img": "/img/Doctor_who.png",
         "category": "Diseño grafico",
         "rowSpan": "2",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 5,
@@ -42,7 +46,8 @@
         "img": "/img/Damned.png",
         "category": "Diseño grafico",
         "rowSpan": "2",
-        "colSpan": "1"
+        "colSpan": "1",
+        "canShow": true
     },
     {
         "id": 6,
@@ -51,7 +56,8 @@
         "img": "/img/medusa.jpg",
         "category": "Diseño grafico",
         "rowSpan": "1",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 7,
@@ -60,7 +66,8 @@
         "img": "/img/tomorrowland.png",
         "category": "Diseño grafico",
         "rowSpan": "1",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 8,
@@ -69,7 +76,8 @@
         "img": "/img/aburridouno.jpg",
         "category": "Diseño editorial",
         "rowSpan": "1",
-        "colSpan": "1"
+        "colSpan": "1",
+        "canShow": true
     },
     {
         "id": 9,
@@ -78,7 +86,8 @@
         "img": "/img/aburridodos.jpg",
         "category": "Diseño editorial",
         "rowSpan": "2",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 10,
@@ -87,7 +96,8 @@
         "img": "/img/aburridotres.jpg",
         "category": "Diseño editorial",
         "rowSpan": "1",
-        "colSpan": "1"
+        "colSpan": "1",
+        "canShow": true
     },
     {
         "id": 11,
@@ -96,7 +106,8 @@
         "img": "/img/2.png",
         "category": "Diseño editorial",
         "rowSpan": "2",
-        "colSpan": "1"
+        "colSpan": "1",
+        "canShow": true
     },
     {
         "id": 12,
@@ -105,7 +116,8 @@
         "img": "/img/3.png",
         "category": "Diseño editorial",
         "rowSpan": "1",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 13,
@@ -114,7 +126,8 @@
         "img": "/img/1.png",
         "category": "Diseño editorial",
         "rowSpan": "1",
-        "colSpan": "1"
+        "colSpan": "1",
+        "canShow": true
     },
     {
         "id": 16,
@@ -123,7 +136,8 @@
         "img": "/img/demoniyo.png",
         "category": "ilustración",
         "rowSpan": "1",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 17,
@@ -132,7 +146,8 @@
         "img": "/img/calavera.png",
         "category": "ilustración",
         "rowSpan": "1",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 18,
@@ -141,7 +156,8 @@
         "img": "/img/demonio.jpg",
         "category": "ilustración",
         "rowSpan": "1",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 19,
@@ -150,7 +166,8 @@
         "img": "/img/koraaaaa.png",
         "category": "ilustración",
         "rowSpan": "1",
-        "colSpan": "1"
+        "colSpan": "1",
+        "canShow": true
     },
     {
         "id": 19,
@@ -159,7 +176,8 @@
         "img": "/img/korasolar.png",
         "category": "ilustración",
         "rowSpan": "1",
-        "colSpan": "1"
+        "colSpan": "1",
+        "canShow": true
     },
     {
         "id": 20,
@@ -168,7 +186,8 @@
         "img": "/img/uocLogo.gif",
         "category": "Motion Graphics",
         "rowSpan": "1",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 21,
@@ -177,7 +196,8 @@
         "img": "/img/NiuProjectCartel.png",
         "category": "Motion Graphics",
         "rowSpan": "1",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 22,
@@ -186,7 +206,8 @@
         "img": "/img/DucleDeLeche.jpg",
         "category": "Motion Graphics",
         "rowSpan": "1",
-        "colSpan": "3"
+        "colSpan": "4",
+        "canShow": true
     },
     {
         "id": 23,
@@ -195,7 +216,8 @@
         "img": "/img/ThinkleDanone.jpeg",
         "category": "Motion Graphics",
         "rowSpan": "1",
-        "colSpan": "1"
+        "colSpan": "1",
+        "canShow": false
     },
     {
         "id": 24,
@@ -205,7 +227,8 @@
         "video": "https://www.youtube.com/embed/wNfzv5fgnfQ?si=nZGjQfkELXq8ZT3G",
         "category": "Motion Graphics",
         "rowSpan": "1",
-        "colSpan": "4"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 25,
@@ -214,7 +237,8 @@
         "img": "/img/Aliseda IA.png",
         "category": "Motion Graphics",
         "rowSpan": "1",
-        "colSpan": "2"
+        "colSpan": "2",
+        "canShow": true
     },
     {
         "id": 26,
@@ -222,7 +246,8 @@
         "descripcion": "La inmobiliaria Aliseda presenta sus naves industriales en oferta a través de este vídeo que he creado, destacando las características y ventajas de sus instalaciones. El vídeo está diseñado para mostrar cómo estas naves son el espacio perfecto para el crecimiento de negocios, resaltando su funcionalidad, ubicación y adaptabilidad a diferentes necesidades empresariales.",
         "img": "/img/Aliseda Logistica.png",
         "category": "Motion Graphics",
-        "rowSpan": "1",
-        "colSpan": "2"
+        "rowSpan": "",
+        "colSpan": "",
+        "canShow": false
     }
 ]
