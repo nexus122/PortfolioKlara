@@ -35,7 +35,9 @@ export async function getPaths() {
             <div
               class="header parallax flex flex-col"
               style={
-                project.video ? `` : `background-image: url(${project.img})`
+                project.video && !project.short
+                  ? ``
+                  : `background-image: url(${project.img})`
               }
             >
               {project.video && (
@@ -83,6 +85,13 @@ export async function getPaths() {
                     <p class="w-full text-center">{project.category}</p>
                   </span>
                   <p class="text-lg">{project.descripcion}</p>
+                  <a
+                    target="_blank"
+                    class="btn btn-blue"
+                    href={project["button-url"]}
+                  >
+                    {project.button}
+                  </a>
                 </span>
               </div>
             </div>
