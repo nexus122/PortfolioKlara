@@ -3,8 +3,9 @@
         "id": 0,
         "nombre": "Bad idea",
         "descripcion": "El cartel Bad Idea encuentra su origen en la inspiración que surgió al escuchar la canción Bad Idea de Girl in red. A través del uso de Photoshop, busqué transmitir una imagen que reflejara la rebeldía, destacando la idea de que aunque algo pueda parecer tentador y jugoso, podría ser una mala idea. Quise plasmar la noción de que la experiencia y las consecuencias se manifiestan posteriormente, y que, paradójicamente, una mala idea podría no ser tan negativa como parece si se disfruta plenamente y se asume la responsabilidad de las consecuencias que puedan surgir.",
+        "background": "/img/BadIdeaMockup.png",
         "img": "/img/Bad_idea.jpg",
-        "category": "Diseño grafico",
+        "category": "Posters",
         "rowSpan": "1",
         "colSpan": "2",
         "canShow": true,
@@ -14,8 +15,9 @@
         "id": 1,
         "nombre": "Oso",
         "descripcion": "El cartel Oso fue concebido después de mi visita a una reserva natural en Galicia, específicamente en Marselle. Allí, presencié cómo un oso en cautiverio jugaba de manera curiosa al estamparse contra el cristal para asustar a los niños que lo observaban. Utilizando Photoshop, me embarqué en un experimento visual con el objetivo de capturar la agresividad y el dinamismo fascinante de este animal. El diseño no solo busca transmitir la imponente presencia del oso, sino también resaltar su aspecto lúdico y la diversión que puede encontrar incluso en situaciones que podrían ser percibidas como amenazadoras.",
+        "background": "/img/osomockup.png",
         "img": "/img/oso.png",
-        "category": "Diseño grafico",
+        "category": "Posters",
         "rowSpan": "1",
         "colSpan": "2",
         "canShow": true,
@@ -26,7 +28,7 @@
         "nombre": "Fuck off",
         "descripcion": "El cartel representa mi homenaje personal a Vincent van Gogh, mediante la reinterpretación de su obra maestra que más me fascina. Utilizando habilidades en Photoshop, he llevado a cabo una transformación que fusiona elementos retro futuristas y neo punk, llevando la pieza de arte de un extremo a otro del espectro estilístico.",
         "img": "/img/Fuck_off.jpg",
-        "category": "Diseño grafico",
+        "category": "Posters",
         "rowSpan": "2",
         "colSpan": "1",
         "canShow": true,
@@ -37,7 +39,7 @@
         "nombre": "Doctor who",
         "descripcion": "El cartel de fan art se inspira en mi serie favorita de la infancia, Doctor Who. En este caso, he seleccionado a uno de los personajes que más me intrigó y que generó emociones intensas en mí: los Ángeles Llorosos. Mi objetivo ha sido captar la esencia única de la serie, buscando un equilibrio entre un diseño tenebroso y, al mismo tiempo, rindiendo homenaje a mi devoción como fan.",
         "img": "/img/Doctor_who.png",
-        "category": "Diseño grafico",
+        "category": "Posters",
         "rowSpan": "2",
         "colSpan": "2",
         "canShow": true,
@@ -48,7 +50,7 @@
         "nombre": "Damned",
         "descripcion": "El cartel Damned tiene su origen en una experiencia personal de decepción amorosa que atravesé. Inspirado por la canción Damned de White Buffalo, este proyecto se convirtió en una poderosa vía para canalizar mi rabia y frustración. La creación del cartel me permitió confrontar la sensación de estar maldita y de carecer de suerte en el amor, temas que resonaban con la música que me inspiró.",
         "img": "/img/Damned.png",
-        "category": "Diseño grafico",
+        "category": "Posters",
         "rowSpan": "2",
         "colSpan": "1",
         "canShow": true,
@@ -58,19 +60,9 @@
         "id": 5,
         "nombre": "Medusa",
         "descripcion": "La reinterpretación futurista de Medusa no solo busca reflejar mi enfado, sino también transmitir una sensación de empoderamiento y transformación. La elección de Medusa, conocida por su mirada petrificante, simboliza mi determinación de enfrentar y desafiar las adversidades. Este proyecto artístico se convierte así en un medio para liberar y comunicar mis emociones, transformando la rabia en una forma de expresión creativa y empoderadora.",
+        "background": "/img/medusamockup.png",
         "img": "/img/medusa.jpg",
-        "category": "Diseño grafico",
-        "rowSpan": "1",
-        "colSpan": "2",
-        "canShow": true,
-        "short": false
-    },
-    {
-        "id": 6,
-        "nombre": "Tomorrowland",
-        "descripcion": "El cartel que presento es el resultado de un proyecto para clase centrado en los colores RGB, donde exploré la creación de un festival ficticio. Este trabajo me llevó a salir de mi zona de confort al adoptar el estilo vaporwave.",
-        "img": "/img/tomorrowland.png",
-        "category": "Diseño grafico",
+        "category": "Posters",
         "rowSpan": "1",
         "colSpan": "2",
         "canShow": true,
@@ -83,7 +75,7 @@
         "img": "/img/aburridouno.jpg",
         "category": "Diseño editorial",
         "rowSpan": "1",
-        "colSpan": "1",
+        "colSpan": "2",
         "canShow": true,
         "short": false
     },
@@ -95,7 +87,7 @@
         "category": "Diseño editorial",
         "rowSpan": "2",
         "colSpan": "2",
-        "canShow": true,
+        "canShow": false,
         "short": false
     },
     {
@@ -106,7 +98,7 @@
         "category": "Diseño editorial",
         "rowSpan": "1",
         "colSpan": "1",
-        "canShow": true,
+        "canShow": false,
         "short": false
     },
     {
@@ -116,7 +108,7 @@
         "img": "/img/2.png",
         "category": "Diseño editorial",
         "rowSpan": "2",
-        "colSpan": "1",
+        "colSpan": "2",
         "canShow": true,
         "short": false
     },
@@ -128,7 +120,7 @@
         "category": "Diseño editorial",
         "rowSpan": "1",
         "colSpan": "2",
-        "canShow": true,
+        "canShow": false,
         "short": false
     },
     {
@@ -139,7 +131,7 @@
         "category": "Diseño editorial",
         "rowSpan": "1",
         "colSpan": "1",
-        "canShow": true,
+        "canShow": false,
         "short": false
     },
     {
@@ -271,7 +263,7 @@
         "nombre": "Aka",
         "descripcion": "",
         "img": "/img/Aka.png",
-        "category": "Diseño grafico",
+        "category": "Branding",
         "rowSpan": "1",
         "colSpan": "2",
         "canShow": true,
@@ -346,6 +338,86 @@
         "category": "Motion Graphics",
         "rowSpan": "1",
         "colSpan": "1",
+        "canShow": false,
+        "short": true
+    },
+    {
+        "nombre": "Decibels",
+        "descripcion": "",
+        "img": "/img/decibels_2.jpg",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": true,
+        "short": true
+    },
+    {
+        "nombre": "Decibels",
+        "descripcion": "",
+        "img": "/img/Decibels_1.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": true
+    },
+    {
+        "nombre": "Niu Project",
+        "descripcion": "",
+        "img": "/img/NiuProjectCartel.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": true,
+        "short": true
+    },
+    {
+        "nombre": "Niu Project",
+        "descripcion": "",
+        "img": "/img/NiuProject_1.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": true
+    },
+    {
+        "nombre": "Megallan and Chers",
+        "descripcion": "",
+        "img": "/img/megallan1.png",
+        "category": "Diseño editorial",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": true,
+        "short": true
+    },
+    {
+        "nombre": "Megallan and Chers",
+        "descripcion": "",
+        "img": "/img/megallan2.png",
+        "category": "Diseño editorial",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": true
+    },
+    {
+        "nombre": "Advance",
+        "descripcion": "",
+        "img": "/img/advance1.png",
+        "category": "Diseño editorial",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": true,
+        "short": true
+    },
+    {
+        "nombre": "Advance",
+        "descripcion": "",
+        "img": "/img/advance2.png",
+        "category": "Diseño editorial",
+        "rowSpan": "1",
+        "colSpan": "2",
         "canShow": false,
         "short": true
     }

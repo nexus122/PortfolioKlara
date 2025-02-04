@@ -37,7 +37,7 @@ export async function getPaths() {
               style={
                 project.video && !project.short
                   ? ``
-                  : `background-image: url(${project.img})`
+                  : `background-image: url(${project.background || project.img})`
               }
             >
               {project.video && (
