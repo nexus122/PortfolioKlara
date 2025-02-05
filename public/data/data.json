@@ -50,8 +50,21 @@
     {
         "id": 4,
         "nombre": "Damned",
-        "descripcion": "El cartel Damned tiene su origen en una experiencia personal de decepción amorosa que atravesé. Inspirado por la canción Damned de White Buffalo, este proyecto se convirtió en una poderosa vía para canalizar mi rabia y frustración. La creación del cartel me permitió confrontar la sensación de estar maldita y de carecer de suerte en el amor, temas que resonaban con la música que me inspiró.",
+        "descripcion":"Inspirado en Cáncerbero, guardián del inframundo, este cartel explora la dualidad entre condena y lucha interna. A través de una estética oscura, la pieza transmite la tensión entre fatalidad y desafío, reflejando la fuerza emocional de la mitología de Cáncerbero.",
+       "background":"/img/damned1.png", 
         "img": "/img/Damned.png",
+        "category": "Posters",
+        "rowSpan": "2",
+        "colSpan": "1",
+        "canShow": true,
+        "short": false
+    },
+    {
+        "id": 4,
+        "nombre": "Danger",
+        "descripcion":"Inspirado en la frase El peligro es real, el miedo una elección, este cartel explora la tensión entre la amenaza tangible y la respuesta emocional. A través de una estética impactante, la pieza busca capturar cómo el miedo puede ser tanto una reacción personal como una construcción mental, jugando con la idea de que la verdadera amenaza no siempre está en lo que nos rodea, sino en cómo elegimos percibirla.",
+       "background":"/img/danger1.png", 
+        "img": "/img/danger.png",
         "category": "Posters",
         "rowSpan": "2",
         "colSpan": "1",
@@ -71,13 +84,80 @@
         "short": false
     },
     {
+        "id": 5,
+        "nombre": "Mia Wallace",
+        "descripcion": "Este cartel fue un encargo para un cliente que quería una reinterpretación de Pulp Fiction en mi estilo personal. Inspirado en el icónico personaje de Mia Wallace, creé una pieza que fusiona la esencia del cine clásico con un toque único de fan fiction, capturando la actitud rebelde y enigmática del personaje. El diseño juega con elementos visuales que evocan la atmósfera única de la película, mientras se adapta a mi enfoque creativo característico.",
+        "background": "/img/Mia1.png",
+        "img": "/img/Mia.png",
+        "category": "Posters",
+        "rowSpan": "1",
+        "colSpan": "1",
+        "canShow": true,
+        "short": false
+    },
+    {
+        "id": 7,
+        "nombre": "Poblenou Urban District",
+        "descripcion": "Este diseño editorial fue creado como un proyecto ficticio de la universidad, reimaginando la identidad de Poblenou Urban District. La pieza combina elementos visuales modernos y tipografía limpia para reflejar la energía y transformación del barrio.",
+        "img": "/img/poble1.png",
+        "category": "Diseño editorial",
+        "rowSpan": "1",
+        "colSpan": "1",
+        "canShow": true,
+        "short": false
+    },
+    {
+        "id": 7,
+        "nombre": "Poblenou Urban District",
+        "descripcion": "",
+        "img": "/img/poble2.png",
+        "category": "Diseño editorial",
+        "rowSpan": "1",
+        "colSpan": "1",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 7,
+        "nombre": "Poblenou Urban District",
+        "descripcion": "",
+        "img": "/img/poble3.png",
+        "category": "Diseño editorial",
+        "rowSpan": "1",
+        "colSpan": "1",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 7,
+        "nombre": "Poblenou Urban District",
+        "descripcion": "",
+        "img": "/img/poble4.png",
+        "category": "Diseño editorial",
+        "rowSpan": "1",
+        "colSpan": "1",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 7,
+        "nombre": "Poblenou Urban District",
+        "descripcion": "",
+        "img": "/img/poble5.png",
+        "category": "Diseño editorial",
+        "rowSpan": "1",
+        "colSpan": "1",
+        "canShow": false,
+        "short": false
+    },
+    {
         "id": 7,
         "nombre": "Aburrido Léeme",
         "descripcion": "¿Aburrido? Léeme marca mi incursión en el mundo de la escritura, siendo mi primer libro. Este proyecto surgió en el contexto de una tarea para la clase de tipografía, donde la intención principal era enseñar a los niños sobre las diferentes familias tipográficas mediante juegos y pasatiempos creativos. Trabajar en esta obra fue una experiencia colaborativa significativa, ya que la coautora, Anna Luna Siemontowitz, y yo compartimos ideas y esfuerzos para dar vida a esta propuesta educativa",
         "img": "/img/aburridouno.jpg",
         "category": "Diseño editorial",
         "rowSpan": "1",
-        "colSpan": "2",
+        "colSpan": "1",
         "canShow": true,
         "short": false
     },
@@ -203,10 +283,21 @@
         "short": false
     },
     {
+        "id": 18,
+        "nombre": "UOC",
+        "descripcion": "Este GIF fue creado para acompañar el lanzamiento de la nueva herramienta GPS Profesional de la UOC, diseñada para orientar a los estudiantes en su futuro profesional. A través de un diseño dinámico, el GIF refleja la idea de navegación y dirección, visualizando el concepto de ayuda y claridad en el camino hacia el éxito profesional.",
+        "img": "/img/uocgif.gif",
+        "category": "Motion Graphics",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
+    },
+    {
         "id": 19,
         "nombre": "Niu Project",
         "descripcion": "Niu Project es un vídeo creado para presentar la identidad de una marca centrada en un proyecto social innovador. Su misión es repoblar pueblos vacíos en España, promoviendo la revitalización de comunidades rurales. El vídeo transmite los valores de la marca, destacando su compromiso con el desarrollo social y la conexión entre personas y territorios.",
-        "img": "/img/NiuProjectCartel.png",
+        "img": "/img/niugif.gif",
         "video": "https://www.youtube.com/embed/i0PMYLoj1fo",
         "category": "Motion Graphics",
         "rowSpan": "1",
@@ -218,11 +309,11 @@
         "id": 20,
         "nombre": "Dulce de leche",
         "descripcion": "He gestionado las redes sociales de la empresa El Mundo del Dulce de Leche, creando contenido como este vídeo para Instagram. Este trabajo presenta una nueva modalidad: una pegatina personalizada para los clientes, la cual también diseñé, destacando la atención al detalle y la identidad de la marca.",
-        "img": "/img/DucleDeLeche.jpg",
+        "img": "/img/DulceGif.gif",
         "video": "https://www.youtube.com/embed/KHFhdLJzGXM",
         "category": "Motion Graphics",
         "rowSpan": "1",
-        "colSpan": "4",
+        "colSpan": "2",
         "canShow": true,
         "short": true
     },
@@ -230,7 +321,7 @@
         "id": 21,
         "nombre": "Grinch Room",
         "descripcion": "Grinch Room fue un montaje efímero navideño creado en equipo en la universidad Pau Gargallo. Inspirado en el Grinch, combinamos luces, colores vibrantes y detalles festivos para un ambiente único y divertido. Mi aportación principal al proyecto fue la realización del vídeo presentado en las redes sociales, destacando la creatividad y el trabajo del equipo.",
-        "img": "/img/GRINCH_Cara.svg",
+        "img": "/img/GifGrinch_3.gif",
         "video": "https://www.youtube.com/embed/wNfzv5fgnfQ?si=nZGjQfkELXq8ZT3G",
         "category": "Motion Graphics",
         "rowSpan": "1",
@@ -243,6 +334,7 @@
         "nombre": "Aliseda",
         "descripcion": "La inmobiliaria Aliseda presenta su nueva inteligencia artificial a través de este vídeo que he creado para ellos, mostrando su funcionamiento de manera clara y dinámica. El vídeo está diseñado específicamente para LinkedIn, destacando las ventajas de esta herramienta innovadora y cómo puede transformar la experiencia en el sector inmobiliario, captando la atención de profesionales y potenciales clientes.",
         "img": "/img/Aliseda_IA.png",
+        "video":"https://www.youtube.com/watch?v=OvAw-yHJwYw",
         "category": "Motion Graphics",
         "rowSpan": "1",
         "colSpan": "2",
@@ -254,6 +346,7 @@
         "nombre": "Aliseda",
         "descripcion": "La inmobiliaria Aliseda presenta sus naves industriales en oferta a través de este vídeo que he creado, destacando las características y ventajas de sus instalaciones. El vídeo está diseñado para mostrar cómo estas naves son el espacio perfecto para el crecimiento de negocios, resaltando su funcionalidad, ubicación y adaptabilidad a diferentes necesidades empresariales.",
         "img": "/img/Aliseda_Logistica.png",
+       "video":"https://www.youtube.com/watch?v=prrEcIaZbF4",
         "category": "Motion Graphics",
         "rowSpan": "",
         "colSpan": "",
@@ -263,12 +356,45 @@
     {
         "id": 24,
         "nombre": "Aka",
-        "descripcion": "",
-        "img": "/img/Aka.png",
+        "descripcion": "Este proyecto consistió en un rebranding para una asociación cultural asiática en Barcelona. Me encargaron actualizar su imagen visual para conectar mejor con su público objetivo. A través de un diseño moderno y culturalmente relevante, la nueva identidad busca reflejar la diversidad y la esencia de la comunidad, generando una mayor identificación con su audiencia.",
+        "img": "/img/Aka1.png",
         "category": "Branding",
         "rowSpan": "1",
         "colSpan": "2",
         "canShow": true,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "Aka",
+        "descripcion": "Este proyecto consistió en un rebranding para una asociación cultural asiática en Barcelona. Me encargaron actualizar su imagen visual para conectar mejor con su público objetivo. A través de un diseño moderno y culturalmente relevante, la nueva identidad busca reflejar la diversidad y la esencia de la comunidad, generando una mayor identificación con su audiencia.",
+        "img": "/img/Aka2.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "Aka",
+        "descripcion": "Este proyecto consistió en un rebranding para una asociación cultural asiática en Barcelona. Me encargaron actualizar su imagen visual para conectar mejor con su público objetivo. A través de un diseño moderno y culturalmente relevante, la nueva identidad busca reflejar la diversidad y la esencia de la comunidad, generando una mayor identificación con su audiencia.",
+        "img": "/img/Aka3.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "Aka",
+        "descripcion": "Este proyecto consistió en un rebranding para una asociación cultural asiática en Barcelona. Me encargaron actualizar su imagen visual para conectar mejor con su público objetivo. A través de un diseño moderno y culturalmente relevante, la nueva identidad busca reflejar la diversidad y la esencia de la comunidad, generando una mayor identificación con su audiencia.",
+        "img": "/img/Aka.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
         "short": false
     },
     {
@@ -364,7 +490,7 @@
         "short": true
     },
     {
-        "nombre": "Niu Project",
+        "nombre": "Niu",
         "descripcion": "",
         "img": "/img/NiuProjectCartel.png",
         "category": "Branding",
@@ -374,7 +500,17 @@
         "short": true
     },
     {
-        "nombre": "Niu Project",
+        "nombre": "Niu",
+        "descripcion": "",
+        "img": "/img/Niulogo.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": true
+    },
+    {
+        "nombre": "Niu",
         "descripcion": "",
         "img": "/img/NiuProject_1.png",
         "category": "Branding",
@@ -384,7 +520,7 @@
         "short": true
     },
     {
-        "nombre": "Megallan and Chers",
+        "nombre": "Megallan and Cheers",
         "descripcion": "",
         "img": "/img/megallan1.png",
         "category": "Diseño editorial",
