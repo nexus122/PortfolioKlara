@@ -302,7 +302,7 @@
         "category": "Motion Graphics",
         "rowSpan": "1",
         "colSpan": "2",
-        "canShow": true,
+        "canShow": false,
         "short": true
     },
     {
