@@ -102,14 +102,14 @@
         "img": "/img/poble1.png",
         "category": "Diseño editorial",
         "rowSpan": "1",
-        "colSpan": "1",
+        "colSpan": "2",
         "canShow": true,
         "short": false
     },
     {
         "id": 7,
         "nombre": "Poblenou Urban District",
-        "descripcion": "",
+        "descripcion": "Este diseño editorial fue creado como un proyecto ficticio de la universidad, reimaginando la identidad de Poblenou Urban District. La pieza combina elementos visuales modernos y tipografía limpia para reflejar la energía y transformación del barrio.",
         "img": "/img/poble2.png",
         "category": "Diseño editorial",
         "rowSpan": "1",
@@ -120,7 +120,7 @@
     {
         "id": 7,
         "nombre": "Poblenou Urban District",
-        "descripcion": "",
+        "descripcion": "Este diseño editorial fue creado como un proyecto ficticio de la universidad, reimaginando la identidad de Poblenou Urban District. La pieza combina elementos visuales modernos y tipografía limpia para reflejar la energía y transformación del barrio.",
         "img": "/img/poble3.png",
         "category": "Diseño editorial",
         "rowSpan": "1",
@@ -131,7 +131,7 @@
     {
         "id": 7,
         "nombre": "Poblenou Urban District",
-        "descripcion": "",
+        "descripcion": "Este diseño editorial fue creado como un proyecto ficticio de la universidad, reimaginando la identidad de Poblenou Urban District. La pieza combina elementos visuales modernos y tipografía limpia para reflejar la energía y transformación del barrio.",
         "img": "/img/poble4.png",
         "category": "Diseño editorial",
         "rowSpan": "1",
@@ -142,7 +142,7 @@
     {
         "id": 7,
         "nombre": "Poblenou Urban District",
-        "descripcion": "",
+        "descripcion": "Este diseño editorial fue creado como un proyecto ficticio de la universidad, reimaginando la identidad de Poblenou Urban District. La pieza combina elementos visuales modernos y tipografía limpia para reflejar la energía y transformación del barrio.",
         "img": "/img/poble5.png",
         "category": "Diseño editorial",
         "rowSpan": "1",
@@ -190,7 +190,7 @@
         "img": "/img/2.png",
         "category": "Diseño editorial",
         "rowSpan": "2",
-        "colSpan": "2",
+        "colSpan": "1",
         "canShow": true,
         "short": false
     },
@@ -333,7 +333,7 @@
         "id": 22,
         "nombre": "Aliseda",
         "descripcion": "La inmobiliaria Aliseda presenta su nueva inteligencia artificial a través de este vídeo que he creado para ellos, mostrando su funcionamiento de manera clara y dinámica. El vídeo está diseñado específicamente para LinkedIn, destacando las ventajas de esta herramienta innovadora y cómo puede transformar la experiencia en el sector inmobiliario, captando la atención de profesionales y potenciales clientes.",
-        "img": "/img/Aliseda_IA.png",
+        "img": "/img/aliseda.gif",
         "video":"https://www.youtube.com/embed/OvAw-yHJwYw?si=yMEMLT7O99DDEZv3",
         "category": "Motion Graphics",
         "rowSpan": "1",
@@ -471,8 +471,8 @@
     },
     {
         "nombre": "Decibels",
-        "descripcion": "",
-        "img": "/img/decibels_2.jpg",
+        "descripcion": "He creado varios elementos de marca y creatividades para Decibels, un gastrobar ubicado en Premià de Mar. Entre los materiales diseñados se incluyen la carta del local, tarjetas de visita, fotografías para sus redes sociales y una lona para las ferias. Cada pieza busca transmitir la esencia única de Decibels, alineándose con su enfoque moderno y cercano. Este proyecto marca el inicio de una larga trayectoria de colaboración entre Decibels y yo, trabajando juntas para fortalecer su identidad y presencia en el mercado.",
+        "img": "/img/Decibels.jpg",
         "category": "Branding",
         "rowSpan": "1",
         "colSpan": "2",
@@ -481,8 +481,28 @@
     },
     {
         "nombre": "Decibels",
-        "descripcion": "",
-        "img": "/img/Decibels_1.png",
+        "descripcion": "He creado varios elementos de marca y creatividades para Decibels, un gastrobar ubicado en Premià de Mar. Entre los materiales diseñados se incluyen la carta del local, tarjetas de visita, fotografías para sus redes sociales y una lona para las ferias. Cada pieza busca transmitir la esencia única de Decibels, alineándose con su enfoque moderno y cercano. Este proyecto marca el inicio de una larga trayectoria de colaboración entre Decibels y yo, trabajando juntas para fortalecer su identidad y presencia en el mercado.",
+        "img": "/img/decibels_2.jpg",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": true
+    },
+    {
+        "nombre": "Decibels",
+        "descripcion": "He creado varios elementos de marca y creatividades para Decibels, un gastrobar ubicado en Premià de Mar. Entre los materiales diseñados se incluyen la carta del local, tarjetas de visita, fotografías para sus redes sociales y una lona para las ferias. Cada pieza busca transmitir la esencia única de Decibels, alineándose con su enfoque moderno y cercano. Este proyecto marca el inicio de una larga trayectoria de colaboración entre Decibels y yo, trabajando juntas para fortalecer su identidad y presencia en el mercado.",
+        "img": "/img/Decibels1.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": true
+    },
+    {
+        "nombre": "Decibels",
+        "descripcion": "He creado varios elementos de marca y creatividades para Decibels, un gastrobar ubicado en Premià de Mar. Entre los materiales diseñados se incluyen la carta del local, tarjetas de visita, fotografías para sus redes sociales y una lona para las ferias. Cada pieza busca transmitir la esencia única de Decibels, alineándose con su enfoque moderno y cercano. Este proyecto marca el inicio de una larga trayectoria de colaboración entre Decibels y yo, trabajando juntas para fortalecer su identidad y presencia en el mercado.",
+        "img": "/img/Decibels2.png",
         "category": "Branding",
         "rowSpan": "1",
         "colSpan": "2",
@@ -491,8 +511,8 @@
     },
     {
         "nombre": "Niu",
-        "descripcion": "",
-        "img": "/img/NiuProjectCartel.png",
+        "descripcion": "Niu Project es una inmobiliaria con un enfoque social que busca repoblar los pueblos de España, ofreciendo viviendas accesibles y dignas para personas que no pueden permitirse los altos precios de las grandes ciudades. Su misión es revitalizar áreas rurales y mejorar la calidad de vida de sus habitantes.Para este proyecto, diseñé el logotipo e identidad visual de Niu Project, con el objetivo de reflejar su compromiso con la accesibilidad y la sostenibilidad.",
+        "img": "/img/Niulogo.png",
         "category": "Branding",
         "rowSpan": "1",
         "colSpan": "2",
@@ -501,8 +521,8 @@
     },
     {
         "nombre": "Niu",
-        "descripcion": "",
-        "img": "/img/Niulogo.png",
+        "descripcion": "Niu Project es una inmobiliaria con un enfoque social que busca repoblar los pueblos de España, ofreciendo viviendas accesibles y dignas para personas que no pueden permitirse los altos precios de las grandes ciudades. Su misión es revitalizar áreas rurales y mejorar la calidad de vida de sus habitantes.Para este proyecto, diseñé el logotipo e identidad visual de Niu Project, con el objetivo de reflejar su compromiso con la accesibilidad y la sostenibilidad.",
+        "img": "/img/NiuProjectCartel.png",
         "category": "Branding",
         "rowSpan": "1",
         "colSpan": "2",
@@ -511,7 +531,7 @@
     },
     {
         "nombre": "Niu",
-        "descripcion": "",
+        "descripcion": "Niu Project es una inmobiliaria con un enfoque social que busca repoblar los pueblos de España, ofreciendo viviendas accesibles y dignas para personas que no pueden permitirse los altos precios de las grandes ciudades. Su misión es revitalizar áreas rurales y mejorar la calidad de vida de sus habitantes.Para este proyecto, diseñé el logotipo e identidad visual de Niu Project, con el objetivo de reflejar su compromiso con la accesibilidad y la sostenibilidad.",
         "img": "/img/NiuProject_1.png",
         "category": "Branding",
         "rowSpan": "1",
@@ -521,17 +541,17 @@
     },
     {
         "nombre": "Megallan and Cheers",
-        "descripcion": "",
+        "descripcion": "Diseñé la nota de prensa para Megallan And Cheers, creando una pieza visualmente atractiva y profesional que reflejara la identidad de la marca. A través de un diseño limpio y bien estructurado, busqué asegurar que la información se presentara de manera clara y efectiva, capturando la esencia de la empresa y transmitiendo su mensaje de forma impactante.",
         "img": "/img/megallan1.png",
         "category": "Diseño editorial",
-        "rowSpan": "1",
-        "colSpan": "2",
+        "rowSpan": "2",
+        "colSpan": "4",
         "canShow": true,
         "short": true
     },
     {
         "nombre": "Megallan and Cheers",
-        "descripcion": "",
+        "descripcion": "Diseñé la nota de prensa para Megallan And Cheers, creando una pieza visualmente atractiva y profesional que reflejara la identidad de la marca. A través de un diseño limpio y bien estructurado, busqué asegurar que la información se presentara de manera clara y efectiva, capturando la esencia de la empresa y transmitiendo su mensaje de forma impactante.",
         "img": "/img/megallan2.png",
         "category": "Diseño editorial",
         "rowSpan": "1",
@@ -541,17 +561,17 @@
     },
     {
         "nombre": "Advance",
-        "descripcion": "",
+        "descripcion": "Diseñé la nota de prensa para Advance en relación con el lanzamiento de su nuevo producto, Veterinary Diets. Mi objetivo fue crear una pieza visualmente clara y profesional que destacara las características del producto, reflejando la identidad de la marca y asegurando que la información fuera accesible y persuasiva para su público objetivo.",
         "img": "/img/advance1.png",
         "category": "Diseño editorial",
         "rowSpan": "1",
-        "colSpan": "2",
+        "colSpan": "4",
         "canShow": true,
         "short": true
     },
     {
         "nombre": "Advance",
-        "descripcion": "",
+        "descripcion": "Diseñé la nota de prensa para Advance en relación con el lanzamiento de su nuevo producto, Veterinary Diets. Mi objetivo fue crear una pieza visualmente clara y profesional que destacara las características del producto, reflejando la identidad de la marca y asegurando que la información fuera accesible y persuasiva para su público objetivo.",
         "img": "/img/advance2.png",
         "category": "Diseño editorial",
         "rowSpan": "1",
@@ -561,12 +581,89 @@
     },
     {
         "nombre": "Advance",
-        "descripcion": "",
+        "descripcion": "Diseñé la nota de prensa para Advance en relación con el lanzamiento de su nuevo producto, Veterinary Diets. Mi objetivo fue crear una pieza visualmente clara y profesional que destacara las características del producto, reflejando la identidad de la marca y asegurando que la información fuera accesible y persuasiva para su público objetivo.",
         "img": "/img/advance3.png",
         "category": "Diseño editorial",
         "rowSpan": "1",
         "colSpan": "2",
         "canShow": false,
         "short": true
+    },
+    {
+        "id": 24,
+        "nombre": "LateLatte",
+        "descripcion": "Late Latte es una cafetería conceptual donde no pagas por lo que consumes, sino por el tiempo que pasas en el local. El concepto busca ofrecer un espacio relajado, sin prisas, donde los clientes pueden disfrutar de café y snacks ilimitados mientras disfrutan de su tiempo.Este es un proyecto inventado en mi tiempo libre, creado para explorar mis habilidades en branding y diseño, con un enfoque moderno, fresco y juguetón que refleja la idea de disfrutar sin estrés.",
+        "img": "/img/LateLatte.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": true,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "LateLatte",
+        "descripcion": "Late Latte es una cafetería conceptual donde no pagas por lo que consumes, sino por el tiempo que pasas en el local. El concepto busca ofrecer un espacio relajado, sin prisas, donde los clientes pueden disfrutar de café y snacks ilimitados mientras disfrutan de su tiempo.Este es un proyecto inventado en mi tiempo libre, creado para explorar mis habilidades en branding y diseño, con un enfoque moderno, fresco y juguetón que refleja la idea de disfrutar sin estrés.",
+        "img": "/img/LateLatte1.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "LateLatte",
+        "descripcion": "Late Latte es una cafetería conceptual donde no pagas por lo que consumes, sino por el tiempo que pasas en el local. El concepto busca ofrecer un espacio relajado, sin prisas, donde los clientes pueden disfrutar de café y snacks ilimitados mientras disfrutan de su tiempo.Este es un proyecto inventado en mi tiempo libre, creado para explorar mis habilidades en branding y diseño, con un enfoque moderno, fresco y juguetón que refleja la idea de disfrutar sin estrés.",
+        "img": "/img/LateLatte2.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "LateLatte",
+        "descripcion": "Late Latte es una cafetería conceptual donde no pagas por lo que consumes, sino por el tiempo que pasas en el local. El concepto busca ofrecer un espacio relajado, sin prisas, donde los clientes pueden disfrutar de café y snacks ilimitados mientras disfrutan de su tiempo.Este es un proyecto inventado en mi tiempo libre, creado para explorar mis habilidades en branding y diseño, con un enfoque moderno, fresco y juguetón que refleja la idea de disfrutar sin estrés.",
+        "img": "/img/LateLatte3.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "LateLatte",
+        "descripcion": "Late Latte es una cafetería conceptual donde no pagas por lo que consumes, sino por el tiempo que pasas en el local. El concepto busca ofrecer un espacio relajado, sin prisas, donde los clientes pueden disfrutar de café y snacks ilimitados mientras disfrutan de su tiempo.Este es un proyecto inventado en mi tiempo libre, creado para explorar mis habilidades en branding y diseño, con un enfoque moderno, fresco y juguetón que refleja la idea de disfrutar sin estrés.",
+        "img": "/img/LateLatte4.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "LateLatte",
+        "descripcion": "Late Latte es una cafetería conceptual donde no pagas por lo que consumes, sino por el tiempo que pasas en el local. El concepto busca ofrecer un espacio relajado, sin prisas, donde los clientes pueden disfrutar de café y snacks ilimitados mientras disfrutan de su tiempo.Este es un proyecto inventado en mi tiempo libre, creado para explorar mis habilidades en branding y diseño, con un enfoque moderno, fresco y juguetón que refleja la idea de disfrutar sin estrés.",
+        "img": "/img/LateLatte5.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "LateLatte",
+        "descripcion": "Late Latte es una cafetería conceptual donde no pagas por lo que consumes, sino por el tiempo que pasas en el local. El concepto busca ofrecer un espacio relajado, sin prisas, donde los clientes pueden disfrutar de café y snacks ilimitados mientras disfrutan de su tiempo.Este es un proyecto inventado en mi tiempo libre, creado para explorar mis habilidades en branding y diseño, con un enfoque moderno, fresco y juguetón que refleja la idea de disfrutar sin estrés.",
+        "img": "/img/LateLatte6.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
     }
 ]
