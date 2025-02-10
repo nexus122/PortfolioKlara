@@ -665,5 +665,73 @@
         "colSpan": "2",
         "canShow": false,
         "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "Loop Project",
+        "descripcion": "Loop Project es una marca de ropa urbana que juega con la idea del ciclo infinito de la moda y la autoexpresión. Inspirada en la cultura streetwear y la creatividad sin límites, Loop Project es un falso proyecto en el que he desarrollado una identidad visual fresca, moderna y llena de energía. Desde el naming hasta el branding, la marca refleja dinamismo, repetición y evolución, con un enfoque divertido y versátil.",
+        "img": "/img/Loop_1.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": true,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "Loop Project",
+        "descripcion": "Loop Project es una marca de ropa urbana que juega con la idea del ciclo infinito de la moda y la autoexpresión. Inspirada en la cultura streetwear y la creatividad sin límites, Loop Project es un falso proyecto en el que he desarrollado una identidad visual fresca, moderna y llena de energía. Desde el naming hasta el branding, la marca refleja dinamismo, repetición y evolución, con un enfoque divertido y versátil.",
+        "img": "/img/Loop_2.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": true,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "Loop Project",
+        "descripcion": "Loop Project es una marca de ropa urbana que juega con la idea del ciclo infinito de la moda y la autoexpresión. Inspirada en la cultura streetwear y la creatividad sin límites, Loop Project es un falso proyecto en el que he desarrollado una identidad visual fresca, moderna y llena de energía. Desde el naming hasta el branding, la marca refleja dinamismo, repetición y evolución, con un enfoque divertido y versátil.",
+        "img": "/img/Loop1.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
+    },
+
+    {
+        "id": 24,
+        "nombre": "Loop Project",
+        "descripcion": "Loop Project es una marca de ropa urbana que juega con la idea del ciclo infinito de la moda y la autoexpresión. Inspirada en la cultura streetwear y la creatividad sin límites, Loop Project es un falso proyecto en el que he desarrollado una identidad visual fresca, moderna y llena de energía. Desde el naming hasta el branding, la marca refleja dinamismo, repetición y evolución, con un enfoque divertido y versátil.",
+        "img": "/img/Loop2.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "Loop Project",
+        "descripcion": "Loop Project es una marca de ropa urbana que juega con la idea del ciclo infinito de la moda y la autoexpresión. Inspirada en la cultura streetwear y la creatividad sin límites, Loop Project es un falso proyecto en el que he desarrollado una identidad visual fresca, moderna y llena de energía. Desde el naming hasta el branding, la marca refleja dinamismo, repetición y evolución, con un enfoque divertido y versátil.",
+        "img": "/img/Loop3.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "Loop Project",
+        "descripcion": "Loop Project es una marca de ropa urbana que juega con la idea del ciclo infinito de la moda y la autoexpresión. Inspirada en la cultura streetwear y la creatividad sin límites, Loop Project es un falso proyecto en el que he desarrollado una identidad visual fresca, moderna y llena de energía. Desde el naming hasta el branding, la marca refleja dinamismo, repetición y evolución, con un enfoque divertido y versátil.",
+        "img": "/img/Loop4.png",
+        "category": "Branding",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": false,
+        "short": false
     }
+    
 ]
