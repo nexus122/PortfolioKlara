@@ -732,6 +732,18 @@
         "colSpan": "2",
         "canShow": false,
         "short": false
+    },
+    {
+        "id": 24,
+        "nombre": "Skin Alliance",
+        "descripcion": "He trabajado en colaboración con L'Oréal Paris creando materiales visuales para Skin Alliance, una iniciativa de investigación centrada en la innovación en el cuidado de la piel. Mi labor ha consistido en el desarrollo de creatividades para sus redes sociales, asegurando una comunicación visual atractiva y alineada con la identidad de la marca.",
+        "img": "/img/SKA.gif",
+        "video": "https://youtube.com/embed/8iH9uVG5EbU?si=MpJtb_aN2UAZAnQc",
+        "category": "Motion Graphics",
+        "rowSpan": "1",
+        "colSpan": "2",
+        "canShow": True,
+        "short": false
     }
     
 ]
